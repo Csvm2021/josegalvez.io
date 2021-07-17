@@ -1,0 +1,104 @@
+input{
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 15pt;
+    text-align: center;
+}
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tabla{
+    width: 100%;
+}
+td{
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    padding-left: 5px;
+}
+#cabeza{
+    overflow: hidden;
+    background-color: midnightblue;
+}
+#cabeza_izq{
+    background-color: white;
+    float: left;
+    width: 400px;
+    background-color: gainsboro;
+    border-bottom-right-radius: 2000px;
+    border-top-left-radius: 2000px;
+}
+#img_cabeza{
+    margin-left: 150px;
+    height: 120px;
+}
+#cabeza_der{
+    float: right;
+    width: 800px;
+}
+#Ins_edu{
+    font-family: verdana;
+    color: snow;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+#Titulo{
+    font-family: Brush Script MT;
+    color: seashell;
+    float: right;
+    font-size: 50px;
+    margin-right: 170px;
+}
+#Slogan{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+/*Navegador*/
+#contenedor{
+    margin: auto;
+    width: px;
+    font-family: Verdana;
+}
+ul, ol{
+    list-style: none;
+}
+.navegador > li{
+    float: left;
+}
+.navegador li a{
+    border-top: 2px solid gainsboro;
+    background-color: midnightblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    border-bottom: solid navy 3px;
+    width: 425px;
+    text-align: center;
+}
+.navegador li a:hover{
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy;
+}
+.navegador li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.navegador li:hover >ul{
+    display: block;
+}
+.navegador li ul li{
+    position: relative;
+}
+#promedio{
+    width: 100%;
+    height: 70%;
+    font-size: 15pt;
+}

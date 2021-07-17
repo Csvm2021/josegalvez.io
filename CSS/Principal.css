@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Cabecera*/
+#cabeza{
+    overflow: hidden;
+    background-color: midnightblue;
+}
+#cabeza_izq{
+    background-color: white;
+    float: left;
+    width: 400px;
+    background-color: gainsboro;
+    border-bottom-right-radius: 2000px;
+    border-top-left-radius: 2000px;
+}
+#img_cabeza{
+    margin-left: 120px;
+    height: 120px;
+}
+#cabeza_der{
+    float: right;
+    width: 800px;
+}
+#Ins_edu{
+    font-family: verdana;
+    color: snow;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+#Titulo{
+    font-family: Brush Script MT;
+    color: seashell;
+    float: right;
+    font-size: 80px;
+    margin-right: 170px;
+}
+/*Navegador*/
+#contenedor{
+    font-family: Verdana;
+}
+ul, ol{
+    list-style: none;
+}
+.navegador > li{
+    float: left;
+}
+.navegador li a{
+    border-top: 2px solid gainsboro;
+    background-color: midnightblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    border-bottom: solid navy; 3px;
+    width: 482px;
+    text-align: center;
+}
+.navegador li a:hover{
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy;
+}
+.navegador li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.navegador li:hover >ul{
+    display: block;
+}
+.navegador li ul li{
+    position: relative;
+}
+#gran_circulo{
+    z-index: 1;
+    background-color: gainsboro;
+    border-bottom-right-radius: 20000px;
+    border-top-right-radius: 20000px;
+    height: 1000px;
+    width: 500px;
+    position: absolute;
+}
+/*Presentacion*/
+#Slogan{
+    font-family: vegur;
+    font-size: 50px;
+    text-align: center;
+    color: cadetblue;
+    z-index: 2;
+}
+#Presentacion{
+    width: 1150px;
+    height: 300px;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: auto;
+    z-index: 2;
+    position: absolute;
+}
+#Presentacion_imagen{
+    width: auto;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+#Presentacion_frase{
+    font-family: calisto;
+    color: darkslategray;
+    font-size: 40px;
+    text-align: right;
+    float: right;
+    margin: 40px;
+    font-weight: bold;
+}
+/*Vinculos del ministerio y de la ugel*/
+#Vinculos{
+    position: relative;
+    background-color: gainsboro;
+    padding: 20px;
+    z-index: 2;
+    margin-top: 500px;
+    margin-bottom: 250px;
+}
+#Ministerio_imagen{
+    float: left;
+    margin-top: 28px;
+    margin-left: 100px;
+}
+#Gerencia_imagen{
+    float: right;
+    margin-right: 200px;
+}
+/*Ver mas y esas cosas*/
+#loqueleo{
+    margin: 10px;
+    float: left;
+    background-color: gainsboro;
+    width: 350px;
+    height: 440px;
+    padding: 20px;
+    text-align: center;
+}
+#loqueleo:hover{
+    background-color: gray;
+    color: white;
+    transform: scale(1.05);
+}
+#Primer_convenio{
+    width: 100%;
+}
+#loqueleo_titulo{
+    margin-top: 45px;
+    font-style: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#loqueleo_contenido{
+    font-family: verdana;
+    text-align: justify;
+}
+#cibertec{
+    margin: 10px;
+    margin-right: 100px;
+    margin-left: 150px;
+    float: left;
+    background-color: gainsboro;
+    width: 350px;
+    height: 440px;
+    padding: 20px;
+}
+#cibertec:hover{
+    background-color: gray;
+    color: white;
+    transform: scale(1.05);
+}
+#Segundo_convenio{
+    width: 100%;
+}
+#cibertec_contenido{
+    margin-top: 65px;
+    font-family: verdana;
+    text-align: justify;
+}
+#compartir{
+    margin: 10px;
+    float: right;
+    background-color: gainsboro;
+    width: 350px;
+    height: 440px;
+    padding: 20px;
+}
+#compartir:hover{
+    background-color: gray;
+    color: white;
+    transform: scale(1.05);
+}
+#Tercer_convenio{
+    width: 100%;
+}
+#compartir_titulo{
+    margin-top: 45px;
+    font-style: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#compartir_contenido{
+    font-family: verdana;
+    text-align: justify;
+}
+footer{
+    position: relative;
+    background-color: midnightblue;
+    padding: 20px;
+    z-index: 2;
+    margin-top: 800px;
+    height: 350px;
+    color: snow;
+}
+#logo_final{
+    float: left;
+    margin-left: 50px;
+}
+#final{
+    float: right;
+    margin-right: 60px;
+    text-align: center;
+    font-style: bolder;
+}
+#escribenos{
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+#inputs{
+    margin-top: 0;
+    width: 200px;
+    height: 30px;
+    border: 0;
+}
+#input_enviar{
+    border: 0;
+    border-radius: 8px;
+    background-color: darkred;
+    color:snow;
+    height: 40px;
+    width: 150px;
+    margin: 60px;
+    margin-top: 170px;
+    font-size: 25px;
+    font-family: arial;
+    float: right;
+}
+#input_enviar:hover{
+    background-color: peru;
+    color: black;
+}
+#inputs_mensaje{
+    width: 250px;
+    height: 200px;
+    border: 0;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+

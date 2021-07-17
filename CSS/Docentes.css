@@ -1,0 +1,170 @@
+#cabeza{
+    overflow: hidden;
+    background-color: midnightblue;
+}
+#cabeza_izq{
+    background-color: white;
+    float: left;
+    width: 400px;
+    background-color: gainsboro;
+    border-bottom-right-radius: 2000px;
+    border-top-left-radius: 2000px;
+}
+#img_cabeza{
+    margin-left: 120px;
+    height: 120px;
+}
+#cabeza_der{
+    float: right;
+    width: 800px;
+}
+#Ins_edu{
+    font-family: verdana;
+    color: snow;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+#Titulo{
+    font-family: Brush Script MT;
+    color: seashell;
+    float: right;
+    font-size: 80px;
+    margin-right: 170px;
+}
+#Slogan{
+    font-family: vegur;
+    font-size: 50px;
+    text-align: center;
+}
+/*Navegador*/
+#contenedor{
+    margin: auto;
+    width: px;
+    font-family: Verdana;
+}
+ul, ol{
+    list-style: none;
+}
+.navegador > li{
+    float: left;
+}
+.navegador li a{
+    border-top: 2px solid gainsboro;
+    background-color: midnightblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    border-bottom: solid navy; 3px;
+    width: 425px;
+}
+.navegador li a:hover{
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy;
+}
+.navegador li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.navegador li:hover >ul{
+    display: block;
+}
+.navegador li ul li{
+    position: relative;
+}
+#contenedor2{
+    width: 100%;
+    font-size: 25pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black solid;
+}
+#Docentes{
+    height: 200px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-image: url(../images/docentes.jpeg);
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    border: solid;
+}
+#Notas{
+    height: 200px;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    background-image: url(../images/notas.jpg);
+    border: solid;
+}
+#Aprobados{
+    height: 200px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    background-image: url(../images/alumnosapr.jpg);
+    border: solid;
+}
+#Rezagados{
+    height: 200px;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    background-image: url(../images/alumnosdes.jpg);
+    border: solid;
+}
+#Fechas{
+    height: 200px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    background-image: url(../images/fechas.jpg);
+    border: solid;
+}
+#Horarios{
+    height: 200px;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    background-image: url(../images/horarios.jpg);
+    border: solid;
+}
+#Memorandum{
+    height: 200px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    background-image: url(../images/fondo2.jpeg);
+    border: solid;
+}
+.Notas_Boton{
+    background-color: transparent;
+    font-size: 15pt;
+    color: snow;
+    text-shadow: 2px 2px 2px black;
+    border: solid;
+    font-weight: bold;
+    border: 1px black solid;
+}

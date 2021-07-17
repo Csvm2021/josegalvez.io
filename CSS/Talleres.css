@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Cabecera*/
+#cabeza{
+    overflow: hidden;
+    background-color: midnightblue;
+}
+#cabeza_izq{
+    background-color: white;
+    float: left;
+    width: 400px;
+    background-color: gainsboro;
+    border-bottom-right-radius: 2000px;
+    border-top-left-radius: 2000px;
+}
+#img_cabeza{
+    margin-left: 150px;
+    height: 120px;
+}
+#cabeza_der{
+    float: right;
+    width: 800px;
+}
+#Ins_edu{
+    font-family: verdana;
+    color: snow;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+#Titulo{
+    font-family: Brush Script MT;
+    color: seashell;
+    float: right;
+    font-size: 80px;
+    margin-right: 170px;
+}
+/*Navegador*/
+#contenedor{
+    font-family: Verdana;
+}
+ul, ol{
+    list-style: none;
+}
+.navegador > li{
+    float: left;
+}
+.navegador li a{
+    border-top: 2px solid gainsboro;
+    background-color: midnightblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    border-bottom: solid navy; 3px;
+    width: 482px;
+    text-align: center;
+}
+.navegador li a:hover{
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy;
+}
+.navegador li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.navegador li:hover >ul{
+    display: block;
+}
+.navegador li ul li{
+    position: relative;
+}
+#talleres{
+    font-family: vegur;
+    font-size: 100px;
+    text-align: center;
+    color: cadetblue;
+    z-index: 2;
+}
+/*COntenido*/
+#computacion{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 800px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#computacion:hover{
+    background-color: steelblue;
+    color: snow;
+}
+#computacion_titulo{
+    margin-top: 30px;
+    font-style: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: verdana;
+}
+#computacion_foto{
+    width: 60%;
+}
+#computacion_contenido{
+    margin-top: 30px;
+    font-family: verdana;
+    text-align: justify;
+    font-size: 25px;
+}
+/*Ingles*/
+#ingles{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#ingles:hover{
+    background-color: steelblue;
+    color: snow;
+}
+#ingles_titulo{
+    margin-top: 30px;
+    font-style: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: verdana;
+}
+#ingles_foto{
+    width: 60%;
+}
+#ingles_contenido{
+    margin-top: 30px;
+    font-family: verdana;
+    text-align: justify;
+    font-size: 25px;
+}
+/*Gastronomia*/
+#gastro{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 650px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#gastro:hover{
+    background-color: steelblue;
+    color: snow;
+}
+#gastro_titulo{
+    margin-top: 30px;
+    font-style: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: verdana;
+}
+#gastro_foto{
+    width: 60%;
+}
+#gastro_contenido{
+    margin-top: 30px;
+    font-family: verdana;
+    text-align: justify;
+    font-size: 25px;
+}
+/*Ajedrez*/
+#aje{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#aje:hover{
+    background-color: steelblue;
+    color: snow;
+}
+#aje_titulo{
+    margin-top: 30px;
+    font-style: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: verdana;
+}
+#aje_foto{
+    width: 60%;
+}
+#aje_contenido{
+    margin-top: 30px;
+    font-family: verdana;
+    text-align: justify;
+    font-size: 25px;
+}
+footer{
+    background-color: midnightblue;
+    padding: 20px;
+    z-index: 2;
+    height: 350px;
+    color: snow;
+}
+#logo_final{
+    float: left;
+    margin-left: 50px;
+}
+#final{
+    float: right;
+    margin-right: 60px;
+    text-align: center;
+    font-style: bolder;
+}
+#escribenos{
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+#inputs{
+    margin-top: 0;
+    width: 200px;
+    height: 30px;
+    border: 0;
+}
+#input_enviar{
+    border: 0;
+    border-radius: 8px;
+    background-color: darkred;
+    color:snow;
+    height: 40px;
+    width: 150px;
+    margin: 60px;
+    margin-top: 170px;
+    font-size: 25px;
+    font-family: arial;
+    float: right;
+}
+#input_enviar:hover{
+    background-color: peru;
+    color: black;
+}
+#inputs_mensaje{
+    width: 250px;
+    height: 200px;
+    border: 0;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
